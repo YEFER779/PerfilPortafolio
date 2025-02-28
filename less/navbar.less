@@ -1,0 +1,32 @@
+.navbar {
+    background: #0056b3; // Azul oscuro
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline;
+            margin: 0 15px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: #ffcc00; // Amarillo al pasar el mouse
+                }
+            }
+        }
+    }
+}
