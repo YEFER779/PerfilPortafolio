@@ -17,7 +17,6 @@ const obtenerEntradasHTML = () => {
 };
 
 export default defineConfig({
-  base: "./",  // 👈 Agrega esto para corregir rutas en GitHub Pages
   appType: "mpa",
   build: {
     rollupOptions: {
